@@ -1,4 +1,5 @@
 ﻿using System;
+using InputData;
 
 namespace Studio1
 {
@@ -6,21 +7,30 @@ namespace Studio1
     {
         static void Main(string[] args)
         {
-            // Set input and convert to double
-            Console.WriteLine("Enter a radius:");
+            // Get input and convert. Check for valid input. 
+            Console.WriteLine("Enter a radius of circular race track in miles:");
             string radiusInput = Console.ReadLine();
-            double radius = double.Parse(radiusInput);
-            double area = Math.Round(Math.PI + radius * radius,3);
-            Console.WriteLine($"The area of a circle with a radius of {radius} is {area}");
-            // Using the same radius, calculate the circumference (2*pi*r) and diameter of the circle (2*r).
-            double circumference = Math.Round(2 * Math.PI * radius);
-            Console.WriteLine($"The circumference of a circle with a radius of {radius} is {circumference}");
+            while (double.Parse(radiusInput) < 0.0) {
+                Console.WriteLine("Please enter a positive number: ");
+                radiusInput = Console.ReadLine();
+            }
             Console.WriteLine("What is the miles per gallon of your car:");
-            string mphInput = Console.ReadLine();
-            double mph = double.Parse(mphInput);
-            double gallonsUsed = Math.Round(circumference / mph,3);
-            Console.WriteLine($"It will take {gallonsUsed} gallons of gas to travel around a a circle with a circumference of {circumference}");
-            
+            string mpgInput = Console.ReadLine();
+            while (double.Parse(mpgInput) < 0.0) {
+                Console.WriteLine("Please enter a positive number: ");
+                mpgInput = Console.ReadLine();
+            }
+            // Store circle info in separate class 
+            Circle.radius = Math.Round(double.Parse(radiusInput));
+            Circle.area = Math.Round(Math.PI + Circle.radius * Circle.radius,3);
+            Circle.circumference = Math.Round(2 * Math.PI * Circle.radius);
+            // Store mpg info into variables in car class
+            Car.mpg = double.Parse(mpgInput);
+            // Calculate gallons used for input data
+            double gallonsUsed = Math.Round(Circle.circumference / Car.mpg,3);
+            // Output messages to user
+            Console.WriteLine($"Fun fact, the area of the race track with a radius of {Circle.radius} miles is {Circle.area} square miles.");
+            Console.WriteLine($"The race track is {Circle.circumference} miles long and it will take {gallonsUsed} gallons of gas to travel around the race track.");
         }
     }
 }

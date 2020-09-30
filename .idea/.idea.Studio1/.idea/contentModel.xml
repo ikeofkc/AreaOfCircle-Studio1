@@ -5,7 +5,7 @@
     <e p="$USER_HOME$/.cache/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_Studio1.-643709644.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
-      <e p="Circle.cs" t="Include" />
+      <e p="InputData.cs" t="Include" />
       <e p="Program.cs" t="Include" />
       <e p="Studio1.csproj" t="IncludeRecursive" />
       <e p="Studio1.sln" t="IncludeFlat" />
