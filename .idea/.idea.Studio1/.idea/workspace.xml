@@ -9,10 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc777bec-d35e-4118-a8d5-cc11cc5c64eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/InputData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio1/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio1/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Studio1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Studio1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circle.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601426662673</updated>
       <workItem from="1601426665731" duration="3328000" />
-      <workItem from="1601482286474" duration="7452000" />
+      <workItem from="1601482286474" duration="7858000" />
+      <workItem from="1601503123806" duration="4479000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. completed first task.">
       <created>1601482475523</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601485847374</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed main studio, only bonus 3 remans">
+      <created>1601490898671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601490898671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,25 +140,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit. completed first task." />
     <MESSAGE value="Completed main studio, need to do bonus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed main studio, need to do bonus" />
+    <MESSAGE value="Completed main studio, only bonus 3 remans" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed main studio, only bonus 3 remans" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1206" height="347" key="GridCell.Tab.0.bottom" timestamp="1601490088568">
+    <state width="1206" height="339" key="GridCell.Tab.0.bottom" timestamp="1601503809178">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1206" height="347" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1601490088568" />
-    <state width="1206" height="347" key="GridCell.Tab.0.center" timestamp="1601490088568">
+    <state width="1206" height="339" key="GridCell.Tab.0.bottom/0.28.2560.1412@0.28.2560.1412" timestamp="1601503809178" />
+    <state width="1206" height="339" key="GridCell.Tab.0.center" timestamp="1601503809177">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1206" height="347" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1601490088568" />
-    <state width="1206" height="347" key="GridCell.Tab.0.left" timestamp="1601490088568">
+    <state width="1206" height="339" key="GridCell.Tab.0.center/0.28.2560.1412@0.28.2560.1412" timestamp="1601503809177" />
+    <state width="1206" height="339" key="GridCell.Tab.0.left" timestamp="1601503809177">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1206" height="347" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1601490088568" />
-    <state width="1206" height="347" key="GridCell.Tab.0.right" timestamp="1601490088568">
+    <state width="1206" height="339" key="GridCell.Tab.0.left/0.28.2560.1412@0.28.2560.1412" timestamp="1601503809177" />
+    <state width="1206" height="339" key="GridCell.Tab.0.right" timestamp="1601503809178">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
-    <state width="1206" height="347" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1601490088568" />
+    <state width="1206" height="339" key="GridCell.Tab.0.right/0.28.2560.1412@0.28.2560.1412" timestamp="1601503809178" />
     <state x="685" y="422" width="800" height="532" key="Rider.ProjectTemplateDialog.Size" timestamp="1601426662590">
       <screen x="0" y="28" width="2560" height="1412" />
     </state>
